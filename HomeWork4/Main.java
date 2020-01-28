@@ -37,7 +37,7 @@ public class Main {
 
         //10 elements array creation. Filled in by random numbers in the range of 0 to 100.
         int[] array = new int[10];
-        for (int i = 0; i < 10; i++){
+        for (int i = 0; i < array.length; i++){
             Random random = new Random();
             array[i] = random.nextInt(100);
         }
@@ -47,7 +47,7 @@ public class Main {
 
         //max element find
         int maxNum = array[0];
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < array.length; i++) {
             if (maxNum < array[i]){
                 maxNum = array[i];
             }
@@ -58,7 +58,7 @@ public class Main {
 
         //min element find
         int minNum = array[0];
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < array.length; i++) {
             if (minNum > array[i]){
                 minNum = array[i];
             }
