@@ -8,12 +8,11 @@ public class SymbMatrix {
 
         char[][] charArray = new char[height][width];
 
-        char fillEmpty = ' ';
         int k = 0;
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++) {
                 if (templateArray[k] == '0'){
-                    charArray[i][j] = fillEmpty;
+                    charArray[i][j] = ' ';
                 } else {
                     charArray[i][j] = filler;
                 }
