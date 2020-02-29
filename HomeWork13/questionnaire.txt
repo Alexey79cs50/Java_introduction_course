@@ -1,0 +1,2 @@
+Questionnaire{response={Bob={Do you agree (y/n): =n, Do you have fun (y/n): =y}}}
+Questionnaire{response={Tom={Do you agree (y/n): =NO, Do you have fun (y/n): =Yes}}}
